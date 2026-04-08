@@ -1,1 +1,32 @@
+Lab 6: Linear Regression on Ecommerce Customers Dataset
 
+In this lab, I applied linear regression to the Ecommerce Customers dataset.
+
+Steps performed
+- Loaded the dataset into a DataFrame
+- Explored the data using `head()`, `info()`, and `describe()`
+- Checked for missing values and duplicate rows
+- Confirmed that no basic data cleaning was needed
+- Did not apply feature engineering because the dataset already contained suitable numerical features
+- Prepared the data for modeling by selecting the input features and target variable
+- Split the data into training and testing sets
+- Trained a Linear Regression model
+- Evaluated the model using regression metrics
+
+Features used
+- Avg. Session Length
+- Time on App
+- Time on Website
+- Length of Membership
+
+Target variable
+- Yearly Amount Spent
+
+Model evaluation results
+- **MAE:** 7.74
+- **MSE:** 93.83
+- **RMSE:** 9.69
+
+## Conclusion
+The linear regression model performed well on the Ecommerce Customers dataset.  
+The RMSE value shows that the model’s predictions are close to the actual yearly amount spent, with an average error of about 9.69 units.
