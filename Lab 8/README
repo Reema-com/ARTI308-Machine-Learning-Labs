@@ -1,1 +1,17 @@
+  Overview:
+  This project applies the K-Nearest Neighbors (KNN) algorithm to classify data using the dataset `KNN_Project_Data`.
 
+  Steps:
+- Loaded and explored the dataset
+- Scaled features using StandardScaler
+- Split data into training and testing sets
+- Trained KNN model (K=1)
+- Evaluated using confusion matrix and classification report
+- Tested multiple K values to find the best one
+
+  Results:
+- Best performance achieved around **K = 23**
+- Larger K improved accuracy and reduced overfitting
+
+  Tools:
+  Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
