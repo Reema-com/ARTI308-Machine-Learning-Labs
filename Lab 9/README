@@ -9,3 +9,9 @@ The steps followed in this project are: loading and exploring the dataset using 
 The results show that the Random Forest model performed better than the Decision Tree model in terms of accuracy. However, both models had difficulty predicting the minority class due to class imbalance in the dataset.
 
 In conclusion, Random Forest is more reliable than Decision Tree for this dataset because it reduces overfitting and improves prediction accuracy.
+
+Question 1: Now create a classification report from the results. Do you get anything strange or some sort of warning?
+Answer: Yes, there may be a warning about undefined precision or recall. This happens because the dataset is imbalanced, and the model may fail to correctly predict the minority class, resulting in zero division in some metrics.
+
+Question 2: What performed better the random forest or the decision tree?
+Answer: The Random Forest model performed better than the Decision Tree model, as it achieved higher accuracy and more stable results.
