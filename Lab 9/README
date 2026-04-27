@@ -1,1 +1,11 @@
+Decision Trees and Random Forest Project
 
+This project applies Decision Tree and Random Forest algorithms to analyze loan data and predict whether a loan will be fully paid or not. The dataset was explored, visualized, and preprocessed before training the models. Both models were evaluated and compared based on their performance.
+
+The dataset used is loan_data.csv, which contains information about borrowers such as credit policy, FICO score, interest rate, and loan purpose. The target variable is "not.fully.paid".
+
+The steps followed in this project are: loading and exploring the dataset using pandas, visualizing the data using matplotlib and seaborn, converting categorical data using get_dummies(), splitting the data into training and testing sets, training a Decision Tree model, training a Random Forest model, and evaluating both models using classification report and confusion matrix.
+
+The results show that the Random Forest model performed better than the Decision Tree model in terms of accuracy. However, both models had difficulty predicting the minority class due to class imbalance in the dataset.
+
+In conclusion, Random Forest is more reliable than Decision Tree for this dataset because it reduces overfitting and improves prediction accuracy.
