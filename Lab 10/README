@@ -1,1 +1,12 @@
+Lab 10 – SVM
 
+This lab applies Support Vector Machines (SVM) on the Iris dataset.
+
+The data was visualized using pairplot and KDE plot.
+The dataset was split into training and testing sets.
+An SVM model was trained and evaluated using confusion matrix and classification report.
+GridSearchCV was used to improve the model.
+
+Result:
+The model achieved high accuracy (~97–100%).
+Setosa was the most easily separable class.
